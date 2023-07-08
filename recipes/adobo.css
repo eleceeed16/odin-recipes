@@ -1,0 +1,60 @@
+* {
+    font-family: tahoma, sans-serif;
+}
+
+body {
+    background-color: #FAF0E4;
+}
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.image-size {
+    width: 300px;
+    height: auto;
+}
+
+.para {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ing, .steps {
+    color: #1C697A;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 0px #FF8551,
+                -5px -5px 0px #FFDEDE;
+}
+
+.list-container {
+    text-align: left;
+    margin-left: 250px;
+    
+}
+
+
+.return {
+    text-align: center;
+}
+
+#card-container {
+    border: 5px solid gray;
+    margin: 5px 400px 100px 400px;
+    padding:40px;
+    border-radius: 32px;
+    background: #9BCDD2;
+    box-shadow:  25px 25px 0px #FF8551,
+             -25px -25px 0px #FFDEDE;
+}
